@@ -101,7 +101,7 @@ export default {
     // 点击图片回到欢迎页面
     goBack() {
       this.$router.push('/home')
-      this.activePath = '/home'
+      this.saveNavState('/home')
     },
 
     // 保存链接的激活状态
