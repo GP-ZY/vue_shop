@@ -102,6 +102,7 @@ export default {
     goBack() {
       this.$router.push('/home')
       this.saveNavState('/home')
+      window.location.reload()
     },
 
     // 保存链接的激活状态
